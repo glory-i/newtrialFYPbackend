@@ -39,7 +39,8 @@ namespace newtrialFYPbackend.Controllers
         [HttpGet("get-names")]
         public IActionResult GetNames()
         {
-            return Ok("I HAVE MADE A CHANGE HERE");
+            string henry = "I BUILT A NEW HOUSE HERE!!";
+            return Ok(henry);
         }
     }
 }
